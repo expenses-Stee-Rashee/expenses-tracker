@@ -5,14 +5,26 @@
 
 i {
   color: #46a434;
+  font-size: 1.2em;
 }
 
 /* Classes */
 /* sidebar drop down menu */
 .ms-1.d-none.d-sm-inline {
+  font-size: 1.2em;
   color: #46a434;
 }
 /* side bar bullet points */
 .d-none.d-sm-inline.bp {
+  font-size: 1em;
   color: #616161;
+}
+
+/* USER Dropdown */
+.d-none.d-sm-inline.mx-1 {
+  font-size: 1.1em;
+}
+
+#menu {
+  margin-top: 20px;
 }
