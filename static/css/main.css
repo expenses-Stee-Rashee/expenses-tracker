@@ -8,6 +8,11 @@ i {
   font-size: 1.2em;
 }
 
+.ph {
+  font-size: 1em;
+  color: #616161;
+}
+
 /* Classes */
 /* sidebar drop down menu */
 .ms-1.d-none.d-sm-inline {

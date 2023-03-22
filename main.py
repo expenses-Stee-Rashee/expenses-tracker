@@ -8,6 +8,7 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
+# TRANSACTIONS ROUTE
 @app.route('/transactions', methods=['GET', 'POST'])
 def transactions():
     if request.method == 'POST':
