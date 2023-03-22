@@ -28,3 +28,9 @@ i {
 #menu {
   margin-top: 20px;
 }
+
+/* INPUT FORM */
+.currency {
+  font-size: 18px;
+  margin-left: 5px;
+}
