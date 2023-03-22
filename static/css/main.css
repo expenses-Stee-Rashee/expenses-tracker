@@ -3,6 +3,9 @@
   color: #ffffff;
 }
 
+/* BASE HTML PAGE */
+
+/* Icons */
 i {
   color: #46a434;
   font-size: 1.2em;
@@ -33,6 +36,45 @@ i {
 #menu {
   margin-top: 20px;
 }
+
+/* INDEX.HTML */
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.8em;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  color: #ffffff;
+  background-color: #4d4d4d;
+}
+p {
+  margin: 0;
+  /* text-align: center; */
+  color: #ffffff;
+  background-color: #4d4d4d;
+}
+
+.bi.bi-currency-pound {
+  background-color: #4d4d4d;
+  font-size: 2em;
+}
+.graphBox {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  align-items: normal;
+}
+.graphBoxPG {
+  align-items: normal;
+}
+/* TRANSACTIONS.HTML */
 
 /* INPUT FORM */
 .currency {
