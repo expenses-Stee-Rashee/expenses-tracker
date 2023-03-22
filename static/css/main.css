@@ -5,6 +5,10 @@
 
 /* BASE HTML PAGE */
 
+img {
+  background-color: #4d4d4d;
+}
+
 /* Icons */
 i {
   color: #46a434;
@@ -32,6 +36,18 @@ i {
 .d-none.d-sm-inline.mx-1 {
   font-size: 1.1em;
 }
+
+.d-flex.align-items-center.text-white.text-decoration-none.dropdown-toggle {
+  margin-top: 2em;
+  background-color: #4d4d4d;
+  padding: 5px;
+  border-radius: 0.5em;
+}
+
+.d-none.d-sm-inline.mx-1 {
+  background-color: #4d4d4d;
+}
+/* USER Dropdown end */
 
 #menu {
   margin-top: 20px;
