@@ -1,0 +1,99 @@
+* {
+  background-color: #212121;
+  color: #ffffff;
+}
+
+/* BASE HTML PAGE */
+
+img {
+  background-color: #4d4d4d;
+}
+
+/* Icons */
+i {
+  color: #46a434;
+  font-size: 1.2em;
+}
+
+.ph {
+  font-size: 1em;
+  color: #616161;
+}
+
+/* Classes */
+/* sidebar drop down menu */
+.ms-1.d-none.d-sm-inline {
+  font-size: 1.2em;
+  color: #46a434;
+}
+/* side bar bullet points */
+.d-none.d-sm-inline.bp {
+  font-size: 1em;
+  color: #616161;
+}
+
+/* USER Dropdown */
+.d-none.d-sm-inline.mx-1 {
+  font-size: 1.1em;
+}
+
+.d-flex.align-items-center.text-white.text-decoration-none.dropdown-toggle {
+  margin-top: 2em;
+  background-color: #4d4d4d;
+  padding: 5px;
+  border-radius: 0.5em;
+}
+
+.d-none.d-sm-inline.mx-1 {
+  background-color: #4d4d4d;
+}
+/* USER Dropdown end */
+
+#menu {
+  margin-top: 20px;
+}
+
+/* INDEX.HTML */
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.8em;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  color: #ffffff;
+  background-color: #4d4d4d;
+}
+p {
+  margin: 0;
+  /* text-align: center; */
+  color: #ffffff;
+  background-color: #4d4d4d;
+}
+
+.bi.bi-currency-pound {
+  background-color: #4d4d4d;
+  font-size: 2em;
+}
+.graphBox {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  align-items: normal;
+}
+.graphBoxPG {
+  align-items: normal;
+}
+/* TRANSACTIONS.HTML */
+
+/* INPUT FORM */
+.currency {
+  font-size: 18px;
+  margin-left: 5px;
+}

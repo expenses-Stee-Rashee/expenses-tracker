@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+<!-- Title -->
+{% block title %}Dashboard{% endblock %}
+<!-- Block -->
+{% block content %}
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <!-- INCOME ARTICLE -->
+      <article>
+        <i class="bi bi-currency-pound"></i>
+        <p class="pTotals">Total Income:</p>
+      </article>
+    </div>
+    <div class="col">
+      <!-- EXPENSES ARTICLE -->
+      <article>
+        <i class="bi bi-currency-pound"></i>
+        <p class="pTotals">Total Expenses:</p>
+      </article>
+    </div>
+    <div class="col">
+      <!-- BALANCE ARTICLE -->
+      <article>
+        <i class="bi bi-currency-pound"></i>
+        <p class="pTotals">Balance:</p>
+      </article>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-4">
+      <!-- GRAPH ARTICLE -->
+      <article class="graphBox">
+        <p class="graphBoxPG">Expenses by Category</p>
+        <img src="/static/img/graphPH.png" alt="palceholder image" />
+      </article>
+    </div>
+    <div class="col-8">
+      <!-- CHART ARTICLE -->
+      <article class="graphBox">
+        <p class="graphBoxPG">Income vs Expense</p>
+
+        <img src="/static/img/chartPH.png" alt="palceholder image" />
+      </article>
+    </div>
+  </div>
+</div>
+{% endblock %}
