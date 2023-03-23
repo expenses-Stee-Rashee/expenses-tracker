@@ -93,7 +93,46 @@ p {
 /* TRANSACTIONS.HTML */
 
 /* INPUT FORM */
+
+form {
+  background-color: #4d4d4d;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+label {
+  background-color: #4d4d4d;
+  color: white;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+input[type="submit"],
+button[type="reset"] {
+  background-color: #46a434;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+button[type="reset"]:hover {
+  background-color: #327625;
+}
+
 .currency {
+  background-color: #4d4d4d;
+  color: #ffffff;
+  font-weight: bold;
   font-size: 18px;
   margin-left: 5px;
 }
