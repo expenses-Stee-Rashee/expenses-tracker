@@ -1,4 +1,4 @@
-* {
+body {
   background-color: #212121;
   color: #ffffff;
 }
@@ -144,4 +144,41 @@ button:hover {
   font-weight: bold;
   font-size: 18px;
   margin-left: 5px;
+}
+
+/* Transactions divs */
+
+#transCont {
+  background-color: #4d4d4d;
+  padding: 0;
+  width: auto;
+  border-radius: 0.5em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+#tranTitle {
+  background-color: #838383;
+  margin: 0;
+  font-weight: bold;
+}
+#tranActions {
+  background-color: #4d4d4d;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.container-sm {
+  width: auto;
+}
+
+.col.trans {
+  width: 250px;
+  overflow: auto;
+}
+
+.bi.bi-pencil {
+  margin-right: 0.4em;
 }
