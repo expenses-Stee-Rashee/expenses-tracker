@@ -3,6 +3,11 @@
   color: #ffffff;
 }
 
+main {
+  display: flex;
+  flex-direction: row;
+}
+
 /* BASE HTML PAGE */
 
 img {
@@ -94,6 +99,10 @@ p {
 
 /* INPUT FORM */
 
+.formArticle {
+  width: 100%;
+}
+
 form {
   background-color: #4d4d4d;
   padding: 20px;
@@ -114,9 +123,9 @@ input {
 }
 
 input[type="submit"],
-button[type="reset"] {
+button {
   background-color: #46a434;
-  color: black;
+  color: #ffffff;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -125,7 +134,7 @@ button[type="reset"] {
 }
 
 input[type="submit"]:hover,
-button[type="reset"]:hover {
+button:hover {
   background-color: #327625;
 }
 
