@@ -95,7 +95,7 @@ p {
 .graphBoxPG {
   align-items: normal;
 }
-/* TRANSACTIONS.HTML */
+/* NEW TRANSACTIONS HTML */
 
 /* INPUT FORM */
 
@@ -146,7 +146,7 @@ button:hover {
   margin-left: 5px;
 }
 
-/* Transactions divs */
+/* Transactions FORM PAGE */
 
 #transCont {
   background-color: #4d4d4d;
