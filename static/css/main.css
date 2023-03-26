@@ -1,6 +1,11 @@
-* {
+body {
   background-color: #212121;
   color: #ffffff;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
 }
 
 /* BASE HTML PAGE */
@@ -90,9 +95,13 @@ p {
 .graphBoxPG {
   align-items: normal;
 }
-/* TRANSACTIONS.HTML */
+/* NEW TRANSACTIONS HTML */
 
 /* INPUT FORM */
+
+.formArticle {
+  width: 100%;
+}
 
 form {
   background-color: #4d4d4d;
@@ -114,9 +123,9 @@ input {
 }
 
 input[type="submit"],
-button[type="reset"] {
+button {
   background-color: #46a434;
-  color: black;
+  color: #ffffff;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -125,7 +134,7 @@ button[type="reset"] {
 }
 
 input[type="submit"]:hover,
-button[type="reset"]:hover {
+button:hover {
   background-color: #327625;
 }
 
@@ -135,4 +144,41 @@ button[type="reset"]:hover {
   font-weight: bold;
   font-size: 18px;
   margin-left: 5px;
+}
+
+/* Transactions FORM PAGE */
+
+#transCont {
+  background-color: #4d4d4d;
+  padding: 0;
+  width: auto;
+  border-radius: 0.5em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+#tranTitle {
+  background-color: #838383;
+  margin: 0;
+  font-weight: bold;
+}
+#tranActions {
+  background-color: #4d4d4d;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.container-sm {
+  width: auto;
+}
+
+.col.trans {
+  width: 250px;
+  overflow: auto;
+}
+
+.bi.bi-pencil {
+  margin-right: 0.4em;
 }

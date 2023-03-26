@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+<!-- Title -->
+{% block title %}Transactions{% endblock %}
+<!-- Block -->
+{% block content %}
+<main>
+  <article class="formArticle">
+    <h2>Form</h2>
+    <form method="POST" action="https://localhost:7005/api/transactionapi">
+      <label for="name">Date:</label>
+      <input type="date" id="date" name="date" required /><br />
+
+      <label for="category">Category:</label>
+      <input type="text" id="category" name="category" required /><br />
+
+      <label for="amount">Amount:</label>
+      <span class="currency">£</span>
+      <input
+        type="number"
+        id="amount"
+        name="amount"
+        step="0.01"
+        required
+      /><br />
+
+      <label for="phone">Note:</label>
+      <input type="text" id="note" name="note" /><br />
+
+      <input type="submit" value="Submit" />
+      <button type="reset">Clear</button>
+    </form>
+  </article>
+  <div class="container-sm">
+    <aside>
+      <a href="/transactions"><button>All Transactions</button></a>
+    </aside>
+  </div>
+</main>
+{% endblock %}

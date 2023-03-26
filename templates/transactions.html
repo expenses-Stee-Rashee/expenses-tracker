@@ -4,31 +4,35 @@
 <!-- Block -->
 {% block content %}
 <main>
-  <article class="formArticle">
-    <h2>Form</h2>
-    <form method="POST" action="https://api.example.com/transactions">
-      <label for="name">Date:</label>
-      <input type="date" id="date" name="date" required /><br />
-
-      <label for="category">Category:</label>
-      <input type="text" id="category" name="category" required /><br />
-
-      <label for="amount">Amount:</label>
-      <span class="currency">£</span>
-      <input
-        type="number"
-        id="amount"
-        name="amount"
-        step="0.01"
-        required
-      /><br />
-
-      <label for="phone">Note:</label>
-      <input type="text" id="note" name="note" /><br />
-
-      <input type="submit" value="Submit" />
-      <button type="reset">Clear</button>
-    </form>
-  </article>
+  <div class="container-xl">
+    <div class="container text-center">
+      <div id="transCont" class="container">
+        <article id="tranTitle" class="formArticle">
+          <div class="row align-items-start">
+            <div class="col trans">Category</div>
+            <div class="col trans">Date</div>
+            <div class="col trans">Amount</div>
+            <div class="col trans">Actions</div>
+          </div>
+        </article>
+        <article id="tranActions" class="formArticle">
+          <div class="row align-items-start">
+            <div id="catTrans" class="col trans">Income</div>
+            <div id="dateTrans" class="col trans">01/08/2022</div>
+            <div id="amountTrans" class="col trans">£2,356</div>
+            <div id="actionsTrans" class="col trans">
+              <i class="bi bi-pencil"></i>
+              <i class="bi bi-trash"></i>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+  <div class="container-sm">
+    <aside>
+      <a href="/newtransaction"><button>New Transaction</button></a>
+    </aside>
+  </div>
 </main>
 {% endblock %}

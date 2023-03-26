@@ -1,15 +1,9 @@
-from flask import Flask, render_template, request
+from flask import Blueprint, render_template, request
 import requests
 
-app = Flask(__name__)
+transactions_bp = Blueprint('transactions', __name__)
 
-# route to home page
-@app.route('/')
-def home():
-    return render_template("index.html")
-
-# TRANSACTIONS ROUTE
-@app.route('/transactions', methods=['GET', 'POST'])
+@transactions_bp.route('/transactions', methods=['GET', 'POST'])
 def transactions():
     if request.method == 'POST':
         date = request.form['date']
@@ -17,7 +11,7 @@ def transactions():
         amount = request.form['amount']
         note = request.form['note']
 
-        response = requests.post('https://api.example.com/transactions', data ={
+        response = requests.post('https://localhost:7005/api/transactionapi', data ={
             'date': date,
             'category': category,
             'amount': amount,
@@ -32,6 +26,3 @@ def transactions():
     else:    
         return render_template("transactions.html")
 
-
-if __name__ == "__main__":
-    app.run(debug=True)
