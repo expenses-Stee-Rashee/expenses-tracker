@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+<!-- Title -->
+{% block title %}Categories{% endblock %}
+<!-- Block -->
+{% block content %}
+<main>
+  <article class="formArticle">
+    <form method="POST" action="https://localhost:7005/api/apicategory">
+      <label for="iOe">Income or Expense:</label>
+      <select id="iOe" name="iOe">
+        <option value="income">Income</option>
+        <option value="expense">Expense</option>
+      </select>
+
+      <label for="category">Title</label>
+      <input type="text" id="category" name="category" required /><br />
+
+      <label for="phone">Icon</label>
+      <input type="text" id="icon" name="icon" /><br />
+
+      <input type="submit" value="Submit" />
+      <button type="reset">Clear</button>
+    </form>
+  </article>
+</main>
+{% endblock %}
