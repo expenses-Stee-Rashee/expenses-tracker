@@ -1,5 +1,6 @@
 from flask import Blueprint, render_template, request
 import requests
+import json
 
 newTransaction_bp = Blueprint('newTransaction', __name__)
 
@@ -11,12 +12,16 @@ def new_transaction():
         amount = request.form['amount']
         note = request.form['note']
 
-        response = requests.post('https://localhost:7005/api/transactionapi', data ={
+        data = {
             'date': date,
             'category': category,
             'amount': amount,
             'note': note
-        })
+        }
+
+        headers = {'Content-Type': 'application/json'}
+        response = requests.post('https://localhost:7005/api/transactionapi', json=data, headers=headers)
+        
         
         if response.ok:
             return 'Transaction Added'
