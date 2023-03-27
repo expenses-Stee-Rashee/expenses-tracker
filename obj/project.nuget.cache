@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i7eDjM5vHVsFLl3JKLAdlqTmKjq43RMrJF4yFEugnsU2x/WgG6JV4NN9guxx2Y5CDdbqOHMRTh98AwsLZVZjWA==",
+  "dgSpecHash": "0YaJMqlJFoVGHgG8CE8ZRVuDYBi860rK+qv5WGt5bUyqMHB4/Bw2TrW8GC2fGCyMK3+a76BHUGkmEN8QQy4OHg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rashe\\source\\projects\\CSharpAPI\\Expense-Tracker\\Expense-Tracker\\ExpenseTracker.csproj",
+  "projectFilePath": "C:\\Users\\rashe\\source\\projects\\ClonedRepoExpenseTracker\\ExpenseTracker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rashe\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\rashe\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

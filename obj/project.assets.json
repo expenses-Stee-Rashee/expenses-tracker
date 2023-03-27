@@ -2232,11 +2232,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rashe\\source\\projects\\CSharpAPI\\Expense-Tracker\\Expense-Tracker\\ExpenseTracker.csproj",
+      "projectUniqueName": "C:\\Users\\rashe\\source\\projects\\ClonedRepoExpenseTracker\\ExpenseTracker.csproj",
       "projectName": "ExpenseTracker",
-      "projectPath": "C:\\Users\\rashe\\source\\projects\\CSharpAPI\\Expense-Tracker\\Expense-Tracker\\ExpenseTracker.csproj",
+      "projectPath": "C:\\Users\\rashe\\source\\projects\\ClonedRepoExpenseTracker\\ExpenseTracker.csproj",
       "packagesPath": "C:\\Users\\rashe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rashe\\source\\projects\\CSharpAPI\\Expense-Tracker\\Expense-Tracker\\obj\\",
+      "outputPath": "C:\\Users\\rashe\\source\\projects\\ClonedRepoExpenseTracker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
